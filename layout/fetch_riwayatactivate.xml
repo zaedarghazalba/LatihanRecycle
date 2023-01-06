@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="50dp"
+                    android:background="@drawable/bg_rounded_btn"
+                    android:text="Selesai"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/textTanggal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="23 September 2022" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:id="@+id/textInvoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Invoice : 85412375614515"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:id="@+id/textTotalbayar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Total bayar : Rp 300.000"/>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
